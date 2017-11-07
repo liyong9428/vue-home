@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+img{vertical-align: top;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+capation,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before, q:after{content:'';}
+abbr,acronym{border:0;}
+a {text-decoration: none;color: #5A5452;}
+a:hover {color: #FF6662;}
+b {font-weight: normal;}
+
+html,body{
+	overflow-x: hidden;
+	background: #F6F7FB;
+	color: #A6A6A6;
+	font-family: 微软雅黑;
+}
+.banxin {
+	width: 1200px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	overflow: hidden;
+}
+
+.left  { float: left;}
+.right { float: right;}
+.clear { clear: both;}
